@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:bmi_calculator/constants.dart';
 
 class UpperGenderWidget extends StatelessWidget {
   UpperGenderWidget({this.genderIcon, this.genderText});
@@ -19,10 +20,7 @@ class UpperGenderWidget extends StatelessWidget {
         ),
         Text(
           genderText,
-          style: TextStyle(
-            color: Color(0xFF8D8E98),
-            fontSize: 18,
-          ),
+          style: kLabelTextStyle,
         )
       ],
     );
